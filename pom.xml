@@ -56,6 +56,11 @@
 			<artifactId>mssql-jdbc</artifactId>
 			<version>12.2.0.jre11</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.azure.spring</groupId>
+			<artifactId>spring-cloud-azure-starter-keyvault-secrets</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
